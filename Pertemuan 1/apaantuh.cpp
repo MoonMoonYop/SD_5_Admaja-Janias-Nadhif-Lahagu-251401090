@@ -11,14 +11,16 @@ int main(){
     int* meh=new int[var];
 
     cout<<"Masukkan waipumu "<<var<<" waipu : \n";
-    for (int i=0; i<var: i++){
-        cin<<meh[i];
+    for (int i=0; i<var; i++){
+        cin>>meh[i];
     }
 
     cout<<"isi array : ";
-    for (int i=0; i < meh; i++){
+    for (int i=0; i < var; i++){
         cout<<meh[i]<<" ";
     }
+
+    delete[] meh;
 
     return 0;
 }
